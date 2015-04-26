@@ -21,7 +21,8 @@
     "ember-routing-htmlbars-improved-actions": true,
     "ember-htmlbars-get-helper": true,
     "ember-htmlbars-helper": true,
-    "ember-htmlbars-dashless-helpers": true
+    "ember-htmlbars-dashless-helpers": true,
+    "ember-routing-routable-components": true
   },
   "debugStatements": [
     "Ember.warn",
