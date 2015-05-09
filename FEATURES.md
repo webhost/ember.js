@@ -320,3 +320,7 @@ for a detailed explanation.
 
   Implements RFC https://github.com/emberjs/rfcs/pull/58, adding support for
   dashless helpers.
+
+* `ember-routing-routable-components`
+
+Derp

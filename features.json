@@ -22,7 +22,7 @@
     "ember-htmlbars-get-helper": true,
     "ember-htmlbars-helper": true,
     "ember-htmlbars-dashless-helpers": true,
-    "ember-routing-routable-components": true
+    "ember-routing-routable-components": null
   },
   "debugStatements": [
     "Ember.warn",
