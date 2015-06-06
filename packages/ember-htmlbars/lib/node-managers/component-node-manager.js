@@ -85,7 +85,7 @@ ComponentNodeManager.create = function(renderNode, env, options) {
 
   extractPositionalParams(renderNode, component, params, attrs);
 
-  var results = buildComponentTemplate(
+  let results = buildComponentTemplate(
     { layout, component, isAngleBracket }, attrs, { templates, scope: parentScope }
   );
 
