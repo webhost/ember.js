@@ -8,7 +8,6 @@ import Service from "ember-runtime/system/service";
 import { get } from "ember-metal/property_get";
 import { readOnly } from "ember-metal/computed_macros";
 import { routeArgs } from "ember-routing/utils";
-import keys from "ember-metal/keys";
 import merge from "ember-metal/merge";
 
 /**
@@ -30,7 +29,7 @@ var RoutingService = Service.extend({
   currentRouteName: readOnly('router.currentRouteName'),
 
   availableRoutes() {
-    return keys(get(this, 'router').router.recognizer.names);
+    return Object.keys(get(this, 'router').router.recognizer.names);
   },
 
   hasRoute(routeName) {
