@@ -99,4 +99,4 @@ if (!(Object.create && !Object.create(null).hasOwnProperty)) {
   create = Object.create;
 }
 
-export default create;
+export default Object.create;

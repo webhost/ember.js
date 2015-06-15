@@ -36,7 +36,6 @@ import {
 } from "ember-metal/utils";
 import EmberError from "ember-metal/error";
 import Cache from "ember-metal/cache";
-import create from 'ember-metal/platform/create';
 import Logger from "ember-metal/logger";
 
 import {
@@ -224,7 +223,7 @@ Ember._Cache = Cache;
 
 Ember.generateGuid    = generateGuid;
 Ember.GUID_KEY        = GUID_KEY;
-Ember.create          = create;
+Ember.create          = Object.create;
 Ember.keys            = Object.keys;
 Ember.platform        = {
   defineProperty: true,
